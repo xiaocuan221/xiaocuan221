@@ -1,0 +1,64 @@
+{
+  "username": "xiaocuan221",
+  "displayName": "小川",
+  "handle": "@xiaocuan221",
+  "tagline": ".NET 开发者 · 原生 Windows 应用 · AI Agent 探索中",
+  "bannerAlt": "小川 · .NET 开发者 · 手绘草地横幅",
+  "aboutHeading": "A little about me",
+  "aboutLines": [
+    "坐标南宁的 .NET 开发者，喜欢原生 Windows 应用。",
+    "正在探索 AI Agent 的能力边界，用代码解决身边的小问题。",
+    "欢迎找我聊 C#、桌面开发和 AI 应用。"
+  ],
+  "chips": [
+    {
+      "label": ".NET",
+      "tone": "sky"
+    },
+    {
+      "label": "C#",
+      "tone": "mint"
+    },
+    {
+      "label": "WPF",
+      "tone": "gold"
+    },
+    {
+      "label": "AI Agent",
+      "tone": "blush"
+    }
+  ],
+  "links": [
+    {
+      "label": "Email",
+      "href": "mailto:3064759712@qq.com",
+      "icon": "mail",
+      "tone": "cream"
+    },
+    {
+      "label": "GitHub",
+      "href": "https://github.com/xiaocuan221",
+      "icon": "code",
+      "tone": "sky"
+    }
+  ],
+  "projects": [
+    {
+      "name": "desktop-tutorial",
+      "href": "https://github.com/xiaocuan221/desktop-tutorial",
+      "desc": "在 GitHub 上迈出的第一步，之后的好东西都会放进来。"
+    }
+  ],
+  "fallback": {
+    "stars": 0,
+    "followers": 0,
+    "repos": 1,
+    "languages": [
+      {
+        "language": "C#",
+        "count": 1
+      }
+    ]
+  },
+  "location": "南宁"
+}

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="180" viewBox="0 0 880 180" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub snapshot</title>
+  <desc id="desc">Stars: 0, Followers: 0, Public repos: 0</desc>
+  <defs>
+    
+    <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="7" cy="7" r=".8" style="fill:var(--rule)" opacity=".22"/>
+    </pattern>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" style="stop-color:var(--sky1)"/>
+      <stop offset="1" style="stop-color:var(--sky2)"/>
+    </linearGradient>
+    
+    <filter id="rough" x="-6%" y="-6%" width="112%" height="112%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.028" numOctaves="3" seed="11" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="2" xChannelSelector="R" yChannelSelector="G"/>
+    </filter><clipPath id="bar"><rect x="0" y="66" width="380" height="12" rx="6"/></clipPath>
+    <style>
+      svg { --ink:#4E4133;--muted:#6E5C4A;--paper:#FFF8E9;--edge:#D3C6AA;--rule:#B6AB84;--green:#A7BB68;--deep:#7E9440;--blue:#8BC1C6;--gold:#F0CD79;--sky1:#DEEDF2;--sky2:#FBF7EA;--hill1:#C4E2A6;--blade:#6E9B45;--hill2:#A6D489;--fur:#FDF5E4;--furline:#8A6E4F;--blush:#F0B49A; }
+      @media (prefers-color-scheme: dark) { svg { --ink:#FBEFD9;--muted:#D6C8AE;--paper:#2B2C25;--edge:#5B6150;--rule:#8A8668;--green:#A2BB76;--deep:#8DA652;--blue:#88B8BD;--gold:#EEC76C;--sky1:#243029;--sky2:#2B2C25;--hill1:#3A4B2E;--blade:#7C9B57;--hill2:#31402A;--fur:#F2E7CE;--furline:#C9B58F;--blush:#C98A72; } }
+      text { font-family: "Segoe Print", "Bradley Hand", "Chalkboard SE", "Comic Sans MS", KaiTi, "Kaiti SC", "STKaiti", cursive; }
+    </style>
+  </defs>
+  <path d="M21 3H859A18 18 0 0 1 877 21V159A18 18 0 0 1 859 177H21A18 18 0 0 1 3 159V21A18 18 0 0 1 21 3Z" transform="translate(0 4)" style="fill:var(--edge)" opacity=".5"/>
+  <path d="M21 3H859A18 18 0 0 1 877 21V159A18 18 0 0 1 859 177H21A18 18 0 0 1 3 159V21A18 18 0 0 1 21 3Z" style="fill:var(--paper)"/>
+  <path d="M21 3H859A18 18 0 0 1 877 21V159A18 18 0 0 1 859 177H21A18 18 0 0 1 3 159V21A18 18 0 0 1 21 3Z" fill="url(#dots)"/>
+  <path d="M21 3H859A18 18 0 0 1 877 21V159A18 18 0 0 1 859 177H21A18 18 0 0 1 3 159V21A18 18 0 0 1 21 3Z" fill="none" style="stroke:var(--edge);stroke-width:1.6;" filter="url(#rough)"/>
+  <path d="M440 24q4 66 -1 132" fill="none" style="stroke:var(--rule);stroke-width:1.3;stroke-dasharray:4 5;stroke-linecap:round;"/>
+  <g transform="translate(28 24)"><text x="0" y="21" font-size="23" font-weight="700" style="fill:var(--ink)">Open source</text>
+      <path d="M0 29q28.439999999999998 -5 60.04 -1t63.2 2" fill="none"
+        style="stroke:var(--green);stroke-width:2.6;stroke-linecap:round;" opacity=".9"/>
+      <text x="0" y="48" font-size="14" style="fill:var(--muted)">Public GitHub activity</text>
+      <g transform="translate(2 78)" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m12-3 4 8 9 1-6 6 1 9-8-4-8 4 1-9-7-6 10-2Z" style="fill:var(--gold);stroke:var(--furline);stroke-width:1.7"/>
+        <path d="m10 3-2 5-5 1" fill="none" style="stroke:var(--paper);stroke-width:1.6;"/>
+      </g>
+      <text x="32" y="98" font-size="31" font-weight="700" style="fill:var(--ink)">0</text>
+      <text x="32" y="126" font-size="14" style="fill:var(--muted)">Stars</text>
+      <text x="152" y="98" font-size="31" font-weight="700" style="fill:var(--ink)">0</text>
+      <text x="152" y="126" font-size="14" style="fill:var(--muted)">Followers</text>
+      <text x="276" y="98" font-size="31" font-weight="700" style="fill:var(--ink)">0</text>
+      <text x="276" y="126" font-size="14" style="fill:var(--muted)">Public repos</text></g>
+  <g transform="translate(468 24)"><text x="0" y="21" font-size="23" font-weight="700" style="fill:var(--ink)">Primary languages</text>
+      <path d="M0 29q41.76 -5 88.16 -1t92.80000000000001 2" fill="none"
+        style="stroke:var(--blue);stroke-width:2.6;stroke-linecap:round;" opacity=".9"/>
+      <text x="0" y="48" font-size="14" style="fill:var(--muted)">Share of public repos by main language</text>
+      <text x="0" y="102" font-size="14" style="fill:var(--muted)">No language data yet</text></g>
+</svg>

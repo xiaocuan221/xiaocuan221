@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="216" height="62" viewBox="0 0 216 62" role="img" aria-labelledby="title">
+  <title id="title">GitHub</title>
+  <style>text { font-family: "Segoe Print", "Bradley Hand", "Chalkboard SE", "Comic Sans MS", KaiTi, "Kaiti SC", "STKaiti", cursive; }</style>
+  <g transform="rotate(-0.7 108 31)">
+    <rect x="2" y="5" width="210" height="52" rx="20" fill="#A8C8D5" opacity=".55"/>
+    <rect x="1" y="1" width="210" height="52" rx="20" fill="#E4F0F5"/>
+    <rect x="1" y="1" width="210" height="52" rx="20" fill="none" stroke="#A8C8D5" stroke-width="1.6"/>
+    <circle cx="34" cy="28" r="17" fill="#FFFFFF" opacity=".75"/>
+    <g fill="none" style="stroke:#31505C;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round"><path d="M29 23l-5 5 5 5"/><path d="M39 23l5 5-5 5"/><path d="M35.5 21l-3 14"/></g>
+    <text x="60" y="35" font-size="20" style="fill:#31505C">GitHub</text>
+  </g>
+</svg>

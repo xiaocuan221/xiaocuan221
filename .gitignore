@@ -1,0 +1,11 @@
+# 本地预览产物，不需要推到 GitHub
+preview.html
+preview.png
+.check.html
+.check.png
+.check2.png
+.m.html
+.mobile.png
+.mobile2.png
+.preview.png
+node_modules/
