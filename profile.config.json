@@ -6,26 +6,38 @@
   "bannerAlt": "小川 · .NET 开发者 · 手绘草地横幅",
   "aboutHeading": "A little about me",
   "aboutLines": [
-    "坐标南宁的 .NET 开发者，喜欢原生 Windows 应用。",
-    "正在探索 AI Agent 的能力边界，用代码解决身边的小问题。",
-    "欢迎找我聊 C#、桌面开发和 AI 应用。"
+    "坐标南宁，学过 C、Java、Web 和 SQL，也在写 ArkTS 和仓颉。",
+    "喜欢原生 Windows 应用，正在探索 AI Agent 的能力边界。",
+    "业余用 Blender 建模，喜欢用代码解决身边的小问题。"
   ],
   "chips": [
     {
-      "label": ".NET",
+      "label": "C",
       "tone": "sky"
     },
     {
-      "label": "C#",
+      "label": "Java",
       "tone": "mint"
     },
     {
-      "label": "WPF",
+      "label": "Web",
       "tone": "gold"
     },
     {
-      "label": "AI Agent",
+      "label": "ArkTS",
       "tone": "blush"
+    },
+    {
+      "label": "仓颉",
+      "tone": "lilac"
+    },
+    {
+      "label": "SQL",
+      "tone": "cream"
+    },
+    {
+      "label": "Blender",
+      "tone": "sky"
     }
   ],
   "links": [
@@ -55,8 +67,16 @@
     "repos": 1,
     "languages": [
       {
-        "language": "C#",
-        "count": 1
+        "language": "Java",
+        "count": 4
+      },
+      {
+        "language": "C",
+        "count": 3
+      },
+      {
+        "language": "仓颉",
+        "count": 3
       }
     ]
   },

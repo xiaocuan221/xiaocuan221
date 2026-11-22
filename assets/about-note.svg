@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="660" height="210" viewBox="0 0 660 210" role="img" aria-labelledby="title desc">
   <title id="title">A little about me</title>
-  <desc id="desc">坐标南宁的 .NET 开发者，喜欢原生 Windows 应用。 正在探索 AI Agent 的能力边界，用代码解决身边的小问题。 欢迎找我聊 C#、桌面开发和 AI 应用。</desc>
+  <desc id="desc">坐标南宁，学过 C、Java、Web 和 SQL，也在写 ArkTS 和仓颉。 喜欢原生 Windows 应用，正在探索 AI Agent 的能力边界。 业余用 Blender 建模，喜欢用代码解决身边的小问题。</desc>
   <defs>
     <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse">
       <circle cx="7" cy="7" r=".8" style="fill:var(--rule)" opacity=".22"/>
@@ -27,9 +27,9 @@
     <text x="36" y="54" font-size="25" font-weight="700" style="fill:var(--ink)">A little about me</text>
     <path d="M36 63q38.55600000000002 -5 81.39600000000004 -1t85.68000000000005 2" fill="none"
         style="stroke:var(--green);stroke-width:2.6;stroke-linecap:round;" opacity=".9"/>
-    <text x="36" y="88" font-size="18" style="fill:var(--ink)">坐标南宁的 .NET 开发者，喜欢原生 Windows 应用。</text>
-    <text x="36" y="120" font-size="18" style="fill:var(--ink)">正在探索 AI Agent 的能力边界，用代码解决身边的小问题。</text>
-    <text x="36" y="152" font-size="18" style="fill:var(--ink)">欢迎找我聊 C#、桌面开发和 AI 应用。</text>
+    <text x="36" y="88" font-size="18" style="fill:var(--ink)">坐标南宁，学过 C、Java、Web 和 SQL，也在写 ArkTS 和仓颉。</text>
+    <text x="36" y="120" font-size="18" style="fill:var(--ink)">喜欢原生 Windows 应用，正在探索 AI Agent 的能力边界。</text>
+    <text x="36" y="152" font-size="18" style="fill:var(--ink)">业余用 Blender 建模，喜欢用代码解决身边的小问题。</text>
     <path d="M614 192q12 -19 26 -23q-7 19 -19 26Z" fill="none"
           style="stroke:var(--green);stroke-width:1.8;stroke-linejoin:round;" opacity=".75"/>
   </g>

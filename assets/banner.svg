@@ -166,24 +166,39 @@
         style="stroke:var(--deep);stroke-width:2.6;stroke-linecap:round;" opacity=".9"/>
   <text x="50" y="166" font-size="16" style="fill:var(--muted)">.NET 开发者 · 原生 Windows 应用 · AI Agent 探索中</text>
   <g>
-        <rect x="283" y="206" width="72" height="30" rx="15" fill="#E4F0F5" stroke="#A8C8D5" stroke-width="1.4"/>
-        <circle cx="299" cy="221" r="4.2" fill="#8FBCCD"/>
-        <text x="311" y="226.5" font-size="15" style="fill:#31505C">.NET</text>
+        <rect x="49" y="206" width="64" height="30" rx="15" fill="#E4F0F5" stroke="#A8C8D5" stroke-width="1.4"/>
+        <circle cx="65" cy="221" r="4.2" fill="#8FBCCD"/>
+        <text x="77" y="226.5" font-size="15" style="fill:#31505C">C</text>
       </g>
       <g>
-        <rect x="365" y="206" width="64" height="30" rx="15" fill="#E6F2E4" stroke="#A9C9A9" stroke-width="1.4"/>
-        <circle cx="381" cy="221" r="4.2" fill="#8FBF8F"/>
-        <text x="393" y="226.5" font-size="15" style="fill:#3E5A3E">C#</text>
+        <rect x="123" y="206" width="72" height="30" rx="15" fill="#E6F2E4" stroke="#A9C9A9" stroke-width="1.4"/>
+        <circle cx="139" cy="221" r="4.2" fill="#8FBF8F"/>
+        <text x="151" y="226.5" font-size="15" style="fill:#3E5A3E">Java</text>
       </g>
       <g>
-        <rect x="439" y="206" width="64" height="30" rx="15" fill="#FAF0D8" stroke="#DCC182" stroke-width="1.4"/>
-        <circle cx="455" cy="221" r="4.2" fill="#D9B65E"/>
-        <text x="467" y="226.5" font-size="15" style="fill:#5E4A22">WPF</text>
+        <rect x="205" y="206" width="64" height="30" rx="15" fill="#FAF0D8" stroke="#DCC182" stroke-width="1.4"/>
+        <circle cx="221" cy="221" r="4.2" fill="#D9B65E"/>
+        <text x="233" y="226.5" font-size="15" style="fill:#5E4A22">Web</text>
       </g>
       <g>
-        <rect x="513" y="206" width="105" height="30" rx="15" fill="#FBE8E5" stroke="#E0B4AC" stroke-width="1.4"/>
-        <circle cx="529" cy="221" r="4.2" fill="#D99A92"/>
-        <text x="541" y="226.5" font-size="15" style="fill:#63362F">AI Agent</text>
+        <rect x="279" y="206" width="80" height="30" rx="15" fill="#FBE8E5" stroke="#E0B4AC" stroke-width="1.4"/>
+        <circle cx="295" cy="221" r="4.2" fill="#D99A92"/>
+        <text x="307" y="226.5" font-size="15" style="fill:#63362F">ArkTS</text>
+      </g>
+      <g>
+        <rect x="369" y="206" width="68" height="30" rx="15" fill="#EFEAF8" stroke="#C4B8DF" stroke-width="1.4"/>
+        <circle cx="385" cy="221" r="4.2" fill="#B3A2D6"/>
+        <text x="397" y="226.5" font-size="15" style="fill:#443A5E">仓颉</text>
+      </g>
+      <g>
+        <rect x="447" y="206" width="64" height="30" rx="15" fill="#FBF1D9" stroke="#DCC79B" stroke-width="1.4"/>
+        <circle cx="463" cy="221" r="4.2" fill="#D9BE86"/>
+        <text x="475" y="226.5" font-size="15" style="fill:#5B4A2F">SQL</text>
+      </g>
+      <g>
+        <rect x="521" y="206" width="97" height="30" rx="15" fill="#E4F0F5" stroke="#A8C8D5" stroke-width="1.4"/>
+        <circle cx="537" cy="221" r="4.2" fill="#8FBCCD"/>
+        <text x="549" y="226.5" font-size="15" style="fill:#31505C">Blender</text>
       </g>
   <g transform="translate(640 97) scale(0.5)">
          <ellipse cx="210" cy="260" rx="185" ry="13" style="fill:var(--furline)" opacity=".13"/>

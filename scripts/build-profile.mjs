@@ -525,7 +525,16 @@ function snapshot(stats, mobile) {
         })
         .join('\n      ')}`;
 
-  const langs = shareRows(stats.languages);
+  let langs = shareRows(stats.languages);
+  let langNote = 'Share of public repos by main language';
+  if (!langs.length) {
+    // 还没有公开仓库：先展示学过的语言，之后 Actions 拉到真实数据会自动换掉
+    const learned = shareRows(cfg.fallback.languages);
+    if (learned.length) {
+      langs = learned;
+      langNote = "What I've learned so far";
+    }
+  }
   let legend;
   if (langs.length) {
     let x = 0;
@@ -555,7 +564,7 @@ function snapshot(stats, mobile) {
 
   const langBlock = `<text x="0" y="21" font-size="23" font-weight="700" ${fill('ink')}>Primary languages</text>
       ${squiggle(0, 29, 232, 'blue')}
-      <text x="0" y="48" font-size="14" ${fill('muted')}>Share of public repos by main language</text>
+      <text x="0" y="48" font-size="14" ${fill('muted')}>${esc(langNote)}</text>
       ${legend}`;
 
   const divider = mobile ? `M24 ${H / 2 - 2}q190 -3 380 1` : `M440 24q4 66 -1 132`;

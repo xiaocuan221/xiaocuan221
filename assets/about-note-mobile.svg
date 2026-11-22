@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="428" height="232" viewBox="0 0 428 232" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="428" height="258" viewBox="0 0 428 258" role="img" aria-labelledby="title desc">
   <title id="title">A little about me</title>
-  <desc id="desc">坐标南宁的 .NET 开发者，喜欢原生 Windows 应用。 正在探索 AI Agent 的能力边界，用代码解决身边的小问题。 欢迎找我聊 C#、桌面开发和 AI 应用。</desc>
+  <desc id="desc">坐标南宁，学过 C、Java、Web 和 SQL，也在写 ArkTS 和仓颉。 喜欢原生 Windows 应用，正在探索 AI Agent 的能力边界。 业余用 Blender 建模，喜欢用代码解决身边的小问题。</desc>
   <defs>
     <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse">
       <circle cx="7" cy="7" r=".8" style="fill:var(--rule)" opacity=".22"/>
@@ -18,21 +18,22 @@
       @media (prefers-color-scheme: dark) { svg { --ink:#FBEFD9;--muted:#D6C8AE;--paper:#2B2C25;--edge:#5B6150;--rule:#8A8668;--green:#A2BB76;--deep:#8DA652;--blue:#88B8BD;--gold:#EEC76C;--sky1:#243029;--sky2:#2B2C25;--hill1:#3A4B2E;--blade:#7C9B57;--hill2:#31402A;--fur:#F2E7CE;--furline:#C9B58F;--blush:#C98A72; } }
       text { font-family: "Segoe Print", "Bradley Hand", "Chalkboard SE", "Comic Sans MS", KaiTi, "Kaiti SC", "STKaiti", cursive; }
     </style></defs>
-  <g transform="rotate(-1.1 214 116)">
-    <rect x="6" y="8" width="416" height="218" rx="16" style="fill:var(--edge)" opacity=".45"/>
-    <rect x="4" y="4" width="416" height="218" rx="16" style="fill:var(--paper)"/>
-    <rect x="4" y="4" width="416" height="218" rx="16" fill="url(#dots)"/>
-    <path d="M20 4H406A16 16 0 0 1 422 20V210A16 16 0 0 1 406 226H20A16 16 0 0 1 4 210V20A16 16 0 0 1 20 4Z" fill="none" style="stroke:var(--edge);stroke-width:1.8;" filter="url(#rough)"/>
+  <g transform="rotate(-1.1 214 129)">
+    <rect x="6" y="8" width="416" height="244" rx="16" style="fill:var(--edge)" opacity=".45"/>
+    <rect x="4" y="4" width="416" height="244" rx="16" style="fill:var(--paper)"/>
+    <rect x="4" y="4" width="416" height="244" rx="16" fill="url(#dots)"/>
+    <path d="M20 4H406A16 16 0 0 1 422 20V236A16 16 0 0 1 406 252H20A16 16 0 0 1 4 236V20A16 16 0 0 1 20 4Z" fill="none" style="stroke:var(--edge);stroke-width:1.8;" filter="url(#rough)"/>
     <rect x="158" y="0" width="112" height="24" rx="3" style="fill:var(--gold)" opacity=".7" transform="rotate(-2 214 12)"/>
     <text x="26" y="48" font-size="22" font-weight="700" style="fill:var(--ink)">A little about me</text>
     <path d="M26 57q33.92928000000001 -5 71.62848000000004 -1t75.39840000000004 2" fill="none"
         style="stroke:var(--green);stroke-width:2.6;stroke-linecap:round;" opacity=".9"/>
-    <text x="26" y="76" font-size="16" style="fill:var(--ink)">坐标南宁的 .NET 开发者，喜欢原生 Windows</text>
-    <text x="26" y="102" font-size="16" style="fill:var(--ink)">应用。</text>
-    <text x="26" y="128" font-size="16" style="fill:var(--ink)">正在探索 AI Agent</text>
-    <text x="26" y="154" font-size="16" style="fill:var(--ink)">的能力边界，用代码解决身边的小问题。</text>
-    <text x="26" y="180" font-size="16" style="fill:var(--ink)">欢迎找我聊 C#、桌面开发和 AI 应用。</text>
-    <path d="M382 214q12 -19 26 -23q-7 19 -19 26Z" fill="none"
+    <text x="26" y="76" font-size="16" style="fill:var(--ink)">坐标南宁，学过 C、Java、Web 和 SQL，也在写</text>
+    <text x="26" y="102" font-size="16" style="fill:var(--ink)">ArkTS 和仓颉。</text>
+    <text x="26" y="128" font-size="16" style="fill:var(--ink)">喜欢原生 Windows 应用，正在探索 AI Agent</text>
+    <text x="26" y="154" font-size="16" style="fill:var(--ink)">的能力边界。</text>
+    <text x="26" y="180" font-size="16" style="fill:var(--ink)">业余用 Blender</text>
+    <text x="26" y="206" font-size="16" style="fill:var(--ink)">建模，喜欢用代码解决身边的小问题。</text>
+    <path d="M382 240q12 -19 26 -23q-7 19 -19 26Z" fill="none"
           style="stroke:var(--green);stroke-width:1.8;stroke-linejoin:round;" opacity=".75"/>
   </g>
 </svg>
