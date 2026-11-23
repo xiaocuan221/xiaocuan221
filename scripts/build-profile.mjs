@@ -612,11 +612,14 @@ async function fetchStats() {
   }
 
   const repos = all.filter((r) => !r.private && !r.fork);
+  // 语言占比排除「同名主页仓库」本身：它的 .mjs 构建脚本会把占比刷成 JavaScript 100%，
+  // 反而盖掉真正想展示的语言构成。
+  const codeRepos = repos.filter((r) => (r.name ?? '').toLowerCase() !== cfg.username.toLowerCase());
   return {
     stars: repos.reduce((s, r) => s + (r.stargazers_count ?? 0), 0),
     followers: user.followers,
     repos: repos.length,
-    languages: repos.map((r) => ({ language: r.language, count: 1 })),
+    languages: codeRepos.map((r) => ({ language: r.language, count: 1 })),
   };
 }
 
